@@ -1,15 +1,15 @@
 # Project Gutenberg Library
 
 ### Table of Contents
-[I. Description and README](https://github.com/56006966/ProjectGutenbergLibrary/main/README.md#i-description-and-readme)
+[I. Description and README](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#i-description-and-readme)
 
-[II. Wireframe solution architecture diagrams - DRAFT](https://github.com/56006966/ProjectGutenbergLibrary/main/README.md#ii-wireframe-solution-architecture-diagrams-DRAFT)
+[II. Wireframe solution architecture diagrams - DRAFT](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#ii-wireframe-solution-architecture-diagrams-DRAFT)
 
-[III. User Stories](https://github.com/56006966/ProjectGutenbergLibrary/main/README.md#iii-user-stories)
+[III. User Stories](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#iii-user-stories)
 
-[IV. Initial Use Cases](https://github.com/56006966/ProjectGutenbergLibrary/main/README.md#iv-initial-use-cases)
+[IV. Initial Use Cases](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#iv-initial-use-cases)
 
-[V. Use Case Diagrams](https://github.com/56006966/ProjectGutenbergLibrary/main/README.md#v-use-case-diagrams)
+[V. Use Case Diagrams](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#v-use-case-diagrams)
 
 
 I. Description and README
