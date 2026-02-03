@@ -43,56 +43,40 @@ III. User Stories
 
 IV. Initial Use Cases
 ---------------------
+|  1. Brief description (or title): |  Floating navigation bar |
+| -------- | ------- |
+| The [relevant] system: | Floating navigation bar menu |
+| The actor(s) including those initiating or responding to events: | When clicked on, it displays the About, Frequently Downloaded, Main Categories, Reading Lists, and Search Options tabs |
+| Scenario usually will include the pre-existing conditions and (all) relevant action sequences: | The About section of the navigation menu has a sub menu with: Contact Us, History & Philosophy, Kindles & eReaders, Help Pages, Offline Catalogs, and Donate. |
+| Expected result: | A fully functional floating navigation bar that when clicked on, it displays the About, Frequently Downloaded, Main Categories, Reading Lists, and Search Options tabs. |
 
-1. Brief description (or title): Floating navigation bar
+| 2. Brief description (or title): | Script |
+| -------- | ------- |
+| The [relevant] system: | Mobile application API script |
+| The actor(s) including those initiating or responding to events: | The script that reads the Project Gutenberg website and lists the books in the application. The book will be downloaded from the website and saved locally on the device. |
+| Scenario usually will include the pre-existing conditions and (all) relevant action sequences: | The book will be downloaded from the website and saved locally on the device.|
+| Expected result: | A full functional script that reads the Project Gutenberg website and lists the books in the application. The book will be downloaded from the website and saved locally on the device. |      
 
-The [relevant] system: Floating navigation bar menu
+| 3. Brief description (or title): | Multiple views |
+| -------- | ------- |
+| The [relevant] system: | Multiple views for different devices |
+| The actor(s) including those initiating or responding to events: | The app will have multiple views for different devices including computers, tablets, and phones. |
+| Scenario usually will include the pre-existing conditions and (all) relevant action sequences: | The app will have multiple views for different devices including computers, tablets, and phones. |
+| Expected result: | The book will be downloaded from the website and saved locally on the device. The app will then present the book in an e-reader format, like Amazon Kindle. The app will have multiple views for different devices including computers, tablets, and phones. |
 
-The actor(s) including those initiating or responding to events: When clicked on, it displays the About, Frequently Downloaded, Main Categories, Reading Lists, and Search Options tabs
+| 4. Brief description (or title): | Scrolling shelves |
+| -------- | ------- |
+| The [relevant] system: | Horizontal scrolling shelves filtered by genre |
+| The actor(s) including those initiating or responding to events: | The books are lined up on shelves that will scroll horizontally. |
+| Scenario usually will include the pre-existing conditions and (all) relevant action sequences: | The books are lined up on shelves that will scroll horizontally. |
+| Expected result: | When you first launch the app, it will reflect the website homepage where the Newest Releases will always appear on the top shelf. The second shelf will have the Most Popular books. The books are lined up on shelves that will scroll horizontally. |            
 
-Scenario usually will include the pre-existing conditions and (all) relevant action sequences: The About section of the navigation menu has a sub menu with: Contact Us, History & Philosophy, Kindles & eReaders, Help Pages, Offline Catalogs, and Donate.
-
-Expected result:A fully functional floating navigation bar that when clicked on, it displays the About, Frequently Downloaded, Main Categories, Reading Lists, and Search Options tabs.
-
-2. Brief description (or title): Script
-
-The [relevant] system: Mobile application API script
-
-The actor(s) including those initiating or responding to events: The script that reads the Project Gutenberg website and lists the books in the application. The book will be downloaded from the website and saved locally on the device.
-
-Scenario usually will include the pre-existing conditions and (all) relevant action sequences: The book will be downloaded from the website and saved locally on the device.
-
-Expected result: A full functional script that reads the Project Gutenberg website and lists the books in the application. The book will be downloaded from the website and saved locally on the device.       
-
-3. Brief description (or title): Multiple views
-
-The [relevant] system: Multiple views for different devices
-
-The actor(s) including those initiating or responding to events: The app will have multiple views for different devices including computers, tablets, and phones.
-
-Scenario usually will include the pre-existing conditions and (all) relevant action sequences: The app will have multiple views for different devices including computers, tablets, and phones.
-
-Expected result: The book will be downloaded from the website and saved locally on the device. The app will then present the book in an e-reader format, like Amazon Kindle. The app will have multiple views for different devices including computers, tablets, and phones. 
-
-4. Brief description (or title): Scrolling shelves
-
-The [relevant] system: Horizontal scrolling shelves filtered by genre
-
-The actor(s) including those initiating or responding to events: The books are lined up on shelves that will scroll horizontally.
-
-Scenario usually will include the pre-existing conditions and (all) relevant action sequences: The books are lined up on shelves that will scroll horizontally.
-
-Expected result: When you first launch the app, it will reflect the website homepage where the Newest Releases will always appear on the top shelf. The second shelf will have the Most Popular books. The books are lined up on shelves that will scroll horizontally.             
-
-5. Brief description (or title): Advanced Search filtering
-
-The [relevant] system: Advanced Search filtering
-
-The actor(s) including those initiating or responding to events: Advanced Search filtering for fields such as Author, Title, Subject, Subject Areas, Language, Datatype, and Filetype.
-
-Scenario usually will include the pre-existing conditions and (all) relevant action sequences: Advanced Search filtering for fields such as Author, Title, Subject, Subject Areas, Language, Datatype, and Filetype.
-
-Expected result: From there you can filter the shelves by genre or search for a book by name or author.
+| 5. Brief description (or title): | Advanced Search filtering |
+| -------- | ------- |
+| The [relevant] system: | Advanced Search filtering |
+| The actor(s) including those initiating or responding to events: | Advanced Search filtering for fields such as Author, Title, Subject, Subject Areas, Language, Datatype, and Filetype. |
+| Scenario usually will include the pre-existing conditions and (all) relevant action sequences: | Advanced Search filtering for fields such as Author, Title, Subject, Subject Areas, Language, Datatype, and Filetype. |
+| Expected result: | From there you can filter the shelves by genre or search for a book by name or author. |
 
 V. Use Case Diagrams
 --------------------
