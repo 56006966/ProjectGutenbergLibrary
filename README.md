@@ -3,7 +3,7 @@
 ### Table of Contents
 [I. Description and README](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#i-description-and-readme)
 
-[II. Wireframe solution architecture diagrams - DRAFT](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#ii-wireframe-solution-architecture-diagrams-DRAFT)
+[II. Wireframe solution architecture diagrams - DRAFT](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#ii-wireframe-solution-architecture-diagrams---draft)
 
 [III. User Stories](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#iii-user-stories)
 
