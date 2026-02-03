@@ -11,6 +11,8 @@
 
 [V. Use Case Diagrams](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#v-use-case-diagrams)
 
+[VI. Software Requirements Table](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#vi-software-requirments-table)
+
 
 I. Description and README
 -------------------------
@@ -100,3 +102,13 @@ V. Use Case Diagrams
 --------------------
 ![Floating Navigation Bar Use Case Diagram](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/usecasediagram1.png "Use Case Diagram 1")
 ![Advanced Search Use Case Diagram](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/usecasediagram2.png "Use Case Diagram 2")
+
+VI. Software Requirments Table
+--------------------
+| ID | Software  Requirement |
+| -------- | ------- |
+| 1 | The software shall have a floating navigation bar menu that can be clicked on to display the About, Frequently Downloaded, Main Categories, Reading Lists, and Search Options tabs |
+| 2 | The About section of the navigation menu shall have a sub menu with: Contact Us, History & Philosophy, Kindles & eReaders, Help Pages, Offline Catalogs, and Donate |
+| 3 | The software shall use a script that reads the Project Gutenberg website and mirrors back the books in the application. The book will be downloaded from the website and saved locally on the device |
+| 4 | There shall be Advanced Search filtering for fields such as Author, Title, Subject, Subject Areas, Language, Datatype, and Filetype |
+| 5 | The app shall reflect the website homepage where the Newest Releases will always appear on the top shelf. The second shelf will have the Most Popular books. The books are lined up on shelves that will scroll horizontally |
