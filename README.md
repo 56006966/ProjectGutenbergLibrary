@@ -27,6 +27,8 @@ II. Wireframe solution architecture diagrams - DRAFT
 ![Wireframe 2](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/wireframe2.drawio.png "Wireframe Diagram 2")
 ![Wireframe 3](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/wireframe3.drawio.png "Wireframe Diagram 3")
 ![Wireframe 4](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/wireframe4.drawio.png "Wireframe Diagram 4")
+![Wireframe 5](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/usecasediagram1.png "Use Case Diagram 1")
+![Wireframe 6](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/usecasediagram2.png "Use Case Diagram 2")
 
 III. User Stories
 -----------------
@@ -81,8 +83,6 @@ IV. Initial Use Cases
 V. Use Case Diagrams
 --------------------
 ![Read or Download Book Use Case Diagram](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/UseCaseDiagram.drawio.png "Read or Download Book Use Case Diagram")
-![Floating Navigation Bar Use Case Diagram](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/usecasediagram1.png "Use Case Diagram 1")
-![Advanced Search Use Case Diagram](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/usecasediagram2.png "Use Case Diagram 2")
 
 VI. Software Requirments Table
 --------------------
