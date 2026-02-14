@@ -84,7 +84,7 @@ V. Use Case Diagrams
 --------------------
 ![Read or Download Book Use Case Diagram](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/UseCaseDiagram.drawio.png "Read or Download Book Use Case Diagram")
 
-VI. Software Requirments Table
+VI. Software Requirements Table
 --------------------
 | ID | Software  Requirement |
 | -------- | ------- |
