@@ -26,6 +26,16 @@ I would also like to have a floating navigation bar that, when clicked on, displ
 ## II. Final Design Review - DRAFT
 ----------------------------------------------------
 
+Per [Gutenberg.org](https://www.gutenberg.org/ebooks/offline_catalogs.html)
+> All Project Gutenberg metadata are available digitally in the XML/RDF format. This is updated daily (other than the legacy format mentioned below). Please use one of these files as input to a database or other tools you may be developing, instead of crawling or roboting the website.
+
+> Note that the exact same metadata is available as a per-eBook .rdf file. These are found in the cache/epub (i.e., cache/generated) directory, accessible by mirroring or by the directory/folder listings above. The large XML/RDF file is simply a concatenation of all the per-eBook metadata.
+
+
+Right now, my code is using a WebViewFormat to display certain pages of the site, which feels like cheating. I am still troubleshooting the [API](https://gutendex.com/) configurment to display the books. 
+
+
+
 
 ## III. Wireframe solution architecture diagrams - DRAFT
 ----------------------------------------------------
