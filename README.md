@@ -3,7 +3,7 @@
 | Part | Table of Contents |
 | -------- | ------- |
 | I. | [Preliminary Design Review (PDR)](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#i-preliminary-design-review) |
-| II. | [Final Design Review (FDR) - DRAFT](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#ii-final-design-review---draft) |
+| II. | [Final Design Review (FDR) - DRAFT](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#ii-wireframe-solution-architecture-diagrams---draft) |
 | III. | [Wireframe solution architecture diagrams - DRAFT](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#iii-wireframe-solution-architecture-diagrams---draft) |
 | IV. | [User Stories](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#iv-user-stories) |
 | V. | [Initial Use Cases](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#v-initial-use-cases) |
@@ -23,6 +23,8 @@ When you first launch the app, it will reflect the website homepage where the Ne
 I would also like to have a floating navigation bar that, when clicked on, displays the About, Frequently Downloaded, Main Categories, Reading Lists, and Search Options tabs. The About section of the navigation menu has a sub menu with: Contact Us, History & Philosophy, Kindles & eReaders, Help Pages, Offline Catalogs, and Donate. Donate and PayPal buttons will launch a browser to these designated websites.
 
 ## II. Wireframe solution architecture diagrams - DRAFT
+
+## III. Wireframe solution architecture diagrams - DRAFT
 ----------------------------------------------------
 ![Wireframe 1](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/wireframe1.drawio.png "Wireframe Diagram 1")
 ![Wireframe 2](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/wireframe2.drawio.png "Wireframe Diagram 2")
@@ -31,7 +33,7 @@ I would also like to have a floating navigation bar that, when clicked on, displ
 ![Wireframe 5](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/usecasediagram1.png "Use Case Diagram 1")
 ![Wireframe 6](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/usecasediagram2.png "Use Case Diagram 2")
 
-## III. User Stories
+## IV. User Stories
 -----------------
 
 1. As a Developer, I want/need a floating navigation bar, so that when clicked on, it displays the About, Frequently Downloaded, Main Categories, Reading Lists, and Search Options tabs   
@@ -44,7 +46,7 @@ I would also like to have a floating navigation bar that, when clicked on, displ
 
 5. As a Developer I need the app to present the book in an e-reader format, so that I will create script that reads the website and lists the books in the application. The book will be downloaded from the website and saved locally on the device. The app will then present the book in an e-reader format, like Amazon Kindle.
 
-## IV. Initial Use Cases
+## V. Initial Use Cases
 ---------------------
 |  1. Brief description (or title): |  Floating navigation bar |
 | -------- | ------- |
@@ -81,11 +83,11 @@ I would also like to have a floating navigation bar that, when clicked on, displ
 | Scenario usually will include the pre-existing conditions and (all) relevant action sequences: | Advanced Search filtering for fields such as Author, Title, Subject, Subject Areas, Language, Datatype, and Filetype. |
 | Expected result: | From there you can filter the shelves by genre or search for a book by name or author. |
 
-## V. Use Case Diagrams
+## VI. Use Case Diagrams
 --------------------
 ![Read or Download Book Use Case Diagram](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/UseCaseDiagram.drawio.png "Read or Download Book Use Case Diagram")
 
-## VI. Software Requirements Table
+## VII. Software Requirements Table
 --------------------
 | ID | Software  Requirement |
 | -------- | ------- |
