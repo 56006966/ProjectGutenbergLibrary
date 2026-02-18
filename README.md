@@ -10,7 +10,7 @@
 | VI. | [Software Requirements Table](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#vi-software-requirments-table) |
 
 
-I. Description and README
+## I. Description and README
 -------------------------
 
 In this paper, I will be specifying the key parts that I am proposing for my project. With this project, I would be creating a mobile application for an interactive library interface by using the free website Project Gutenberg as a database. I specifically chose this website because they do not have a designated application for their website as it is accessible for mobile-device view and e-reader view with accompanying downloadable PDF files. This would be an example of a database GUI.
@@ -21,7 +21,7 @@ When you first launch the app, it will reflect the website homepage where the Ne
 
 I would also like to have a floating navigation bar that, when clicked on, displays the About, Frequently Downloaded, Main Categories, Reading Lists, and Search Options tabs. The About section of the navigation menu has a sub menu with: Contact Us, History & Philosophy, Kindles & eReaders, Help Pages, Offline Catalogs, and Donate. Donate and PayPal buttons will launch a browser to these designated websites.
 
-II. Wireframe solution architecture diagrams - DRAFT
+## II. Wireframe solution architecture diagrams - DRAFT
 ----------------------------------------------------
 ![Wireframe 1](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/wireframe1.drawio.png "Wireframe Diagram 1")
 ![Wireframe 2](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/wireframe2.drawio.png "Wireframe Diagram 2")
@@ -30,7 +30,7 @@ II. Wireframe solution architecture diagrams - DRAFT
 ![Wireframe 5](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/usecasediagram1.png "Use Case Diagram 1")
 ![Wireframe 6](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/usecasediagram2.png "Use Case Diagram 2")
 
-III. User Stories
+## III. User Stories
 -----------------
 
 1. As a Developer, I want/need a floating navigation bar, so that when clicked on, it displays the About, Frequently Downloaded, Main Categories, Reading Lists, and Search Options tabs   
@@ -43,7 +43,7 @@ III. User Stories
 
 5. As a Developer I need the app to present the book in an e-reader format, so that I will create script that reads the website and lists the books in the application. The book will be downloaded from the website and saved locally on the device. The app will then present the book in an e-reader format, like Amazon Kindle.
 
-IV. Initial Use Cases
+## IV. Initial Use Cases
 ---------------------
 |  1. Brief description (or title): |  Floating navigation bar |
 | -------- | ------- |
@@ -80,11 +80,11 @@ IV. Initial Use Cases
 | Scenario usually will include the pre-existing conditions and (all) relevant action sequences: | Advanced Search filtering for fields such as Author, Title, Subject, Subject Areas, Language, Datatype, and Filetype. |
 | Expected result: | From there you can filter the shelves by genre or search for a book by name or author. |
 
-V. Use Case Diagrams
+## V. Use Case Diagrams
 --------------------
 ![Read or Download Book Use Case Diagram](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/UseCaseDiagram.drawio.png "Read or Download Book Use Case Diagram")
 
-VI. Software Requirements Table
+## VI. Software Requirements Table
 --------------------
 | ID | Software  Requirement |
 | -------- | ------- |
