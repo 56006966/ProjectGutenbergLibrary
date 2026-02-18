@@ -11,6 +11,7 @@
 | VII. | [Software Requirements Table](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#vii-software-requirements-table) |
 
 
+
 ## I. Preliminary Design Review
 -------------------------
 
@@ -20,19 +21,28 @@ I will create script that reads the website and lists the books in the applicati
 
 When you first launch the app, it will reflect the website homepage where the Newest Releases will always appear on the top shelf. The second shelf will have the Most Popular books. The books lined up on shelves that will scroll horizontally. From there you can filter the shelves by genre or search for a book by name or author.
 
+![Project Gutenberg Home Page](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/pg_home_page.PNG "Gutenberg Home Page")
+
 I would also like to have a floating navigation bar that, when clicked on, displays the About, Frequently Downloaded, Main Categories, Reading Lists, and Search Options tabs. The About section of the navigation menu has a sub menu with: Contact Us, History & Philosophy, Kindles & eReaders, Help Pages, Offline Catalogs, and Donate. Donate and PayPal buttons will launch a browser to these designated websites.
+
+![Project Gutenberg Header](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/pg_header.PNG "Gutenberg Header")
+
+![Project Gutenberg Search Options](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/pb_advanced_search.PNG "Gutenberg Search Options")
+
 
 
 ## II. Final Design Review - DRAFT
 ----------------------------------------------------
 
 Per [Gutenberg.org](https://www.gutenberg.org/ebooks/offline_catalogs.html)
-> All Project Gutenberg metadata are available digitally in the XML/RDF format. This is updated daily (other than the legacy format mentioned below). Please use one of these files as input to a database or other tools you may be developing, instead of crawling or roboting the website.
-
-> Note that the exact same metadata is available as a per-eBook .rdf file. These are found in the cache/epub (i.e., cache/generated) directory, accessible by mirroring or by the directory/folder listings above. The large XML/RDF file is simply a concatenation of all the per-eBook metadata.
+> All Project Gutenberg metadata are available digitally in the XML/RDF format. This is updated daily (other than the legacy format mentioned below). Please use one of these files as input to a database or other tools you may be developing, instead of crawling or roboting the website. Note that the exact same metadata is available as a per-eBook .rdf file. These are found in the cache/epub (i.e., cache/generated) directory, accessible by mirroring or by the directory/folder listings above. The large XML/RDF file is simply a concatenation of all the per-eBook metadata.
 
 
-Right now, my code is using a WebViewFormat to display certain pages of the site, which feels like cheating. I am still troubleshooting the [API](https://gutendex.com/) configurment to display the books. 
+Right now, my code is using a WebViewFormat to display certain pages of the site, which feels like cheating for certain pages such as the About, Frequently Downloaded, Main Categories, Reading Lists, and Search Options tabs, and for the provideded download options for a book.
+
+I will have a WebView for the About submenu pages of the navigation menu: Contact Us, History & Philosophy, Kindles & eReaders, Help Pages, Offline Catalogs, and Donate. Donate and PayPal buttons will launch a browser to these designated websites.
+
+I am still troubleshooting the [API](https://gutendex.com/) configurment to display the books. 
 
 
 
