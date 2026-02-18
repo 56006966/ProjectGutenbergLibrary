@@ -7,7 +7,7 @@
 | III. | [User Stories](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#iii-user-stories) |
 | IV. | [Initial Use Cases](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#iv-initial-use-cases) |
 | V. | [Use Case Diagrams](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#v-use-case-diagrams) |
-| VI. | [Software Requirements Table](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#vi-software-requirments-table) |
+| VI. | [Software Requirements Table](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#vi-software-requirements-table) |
 
 
 ## I. Description and README
