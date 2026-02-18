@@ -2,15 +2,16 @@
 
 | Part | Table of Contents |
 | -------- | ------- |
-| I. | [Description and README](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#i-description-and-readme) |
-| II. | [Wireframe solution architecture diagrams - DRAFT](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#ii-wireframe-solution-architecture-diagrams---draft) |
-| III. | [User Stories](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#iii-user-stories) |
-| IV. | [Initial Use Cases](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#iv-initial-use-cases) |
-| V. | [Use Case Diagrams](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#v-use-case-diagrams) |
-| VI. | [Software Requirements Table](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#vi-software-requirements-table) |
+| I. | [Preliminary Design Review (PDR)](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#i-preliminary-design-review) |
+| II. | [Final Design Review (FDR) - DRAFT](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#ii-final-design-review---draft) |
+| III. | [Wireframe solution architecture diagrams - DRAFT](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#iii-wireframe-solution-architecture-diagrams---draft) |
+| IV. | [User Stories](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#iv-user-stories) |
+| V. | [Initial Use Cases](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#v-initial-use-cases) |
+| VI. | [Use Case Diagrams](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#vi-use-case-diagrams) |
+| VII. | [Software Requirements Table](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#vii-software-requirements-table) |
 
 
-## I. Description and README
+## I. Preliminary Design Review
 -------------------------
 
 In this paper, I will be specifying the key parts that I am proposing for my project. With this project, I would be creating a mobile application for an interactive library interface by using the free website Project Gutenberg as a database. I specifically chose this website because they do not have a designated application for their website as it is accessible for mobile-device view and e-reader view with accompanying downloadable PDF files. This would be an example of a database GUI.
