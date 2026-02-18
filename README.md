@@ -22,10 +22,14 @@ When you first launch the app, it will reflect the website homepage where the Ne
 
 I would also like to have a floating navigation bar that, when clicked on, displays the About, Frequently Downloaded, Main Categories, Reading Lists, and Search Options tabs. The About section of the navigation menu has a sub menu with: Contact Us, History & Philosophy, Kindles & eReaders, Help Pages, Offline Catalogs, and Donate. Donate and PayPal buttons will launch a browser to these designated websites.
 
-## II. Wireframe solution architecture diagrams - DRAFT
+
+## II. Final Design Review - DRAFT
+----------------------------------------------------
+
 
 ## III. Wireframe solution architecture diagrams - DRAFT
 ----------------------------------------------------
+
 ![Wireframe 1](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/wireframe1.drawio.png "Wireframe Diagram 1")
 ![Wireframe 2](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/wireframe2.drawio.png "Wireframe Diagram 2")
 ![Wireframe 3](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/wireframe3.drawio.png "Wireframe Diagram 3")
@@ -46,8 +50,10 @@ I would also like to have a floating navigation bar that, when clicked on, displ
 
 5. As a Developer I need the app to present the book in an e-reader format, so that I will create script that reads the website and lists the books in the application. The book will be downloaded from the website and saved locally on the device. The app will then present the book in an e-reader format, like Amazon Kindle.
 
+
 ## V. Initial Use Cases
 ---------------------
+
 |  1. Brief description (or title): |  Floating navigation bar |
 | -------- | ------- |
 | The [relevant] system: | Floating navigation bar menu |
@@ -83,12 +89,16 @@ I would also like to have a floating navigation bar that, when clicked on, displ
 | Scenario usually will include the pre-existing conditions and (all) relevant action sequences: | Advanced Search filtering for fields such as Author, Title, Subject, Subject Areas, Language, Datatype, and Filetype. |
 | Expected result: | From there you can filter the shelves by genre or search for a book by name or author. |
 
+
 ## VI. Use Case Diagrams
 --------------------
+
 ![Read or Download Book Use Case Diagram](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/UseCaseDiagram.drawio.png "Read or Download Book Use Case Diagram")
+
 
 ## VII. Software Requirements Table
 --------------------
+
 | ID | Software  Requirement |
 | -------- | ------- |
 | 1 | The software shall have a floating navigation bar menu that can be clicked on to display the About, Frequently Downloaded, Main Categories, Reading Lists, and Search Options tabs |
