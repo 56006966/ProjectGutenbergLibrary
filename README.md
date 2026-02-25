@@ -3,7 +3,7 @@
 | Part | Table of Contents |
 | -------- | ------- |
 | I. | [Preliminary Design Review (PDR)](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#i-preliminary-design-review) |
-| II. | [Final Design Review (FDR) - DRAFT](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#ii-wireframe-solution-architecture-diagrams---draft) |
+| II. | [Final Design Review (FDR) - DRAFT](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#ii-final-design-review-fdr---draft) |
 | III. | [Wireframe solution architecture diagrams - DRAFT](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#iii-wireframe-solution-architecture-diagrams---draft) |
 | IV. | [User Stories](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#iv-user-stories) |
 | V. | [Initial Use Cases](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#v-initial-use-cases) |
