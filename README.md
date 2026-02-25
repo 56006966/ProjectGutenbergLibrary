@@ -66,6 +66,10 @@ Next Steps (MUST DO):
    - The book is currently bulk-loading one single file, looking to separate by chapter or page number
 3. Display the text file
    - Present the book in e-reader format with multiple views
+4. The home screen will show "Shelves" that reflect the website homepage:
+   - Recent Releases
+   - Most Popular
+   - My Library (locally saved books) 
 4. Create a floating navigation menu that, when clicked on, displays the About, Frequently Downloaded, Main Categories, Reading Lists, and Search Options tabs.
    - The About section of the navigation menu has a sub menu with: Contact Us, History & Philosophy, Kindles & eReaders, Help Pages, Offline Catalogs, and Donate.
    - Donate and PayPal buttons will launch a browser to these designated websites.
@@ -78,12 +82,12 @@ Next Steps (MUST DO):
      - loading screens
      - carousel book spinner
 Last Steps (OPTIONAL):
-6. Accessibility features:
+7. Accessibility features:
      - text scalability
      - contrast picker
      - dark mode
      - text-to-audio
-7. Themes
+8. Themes
      - acheivements with rewardable icons, covers, colors, etc.
 
 
