@@ -20,29 +20,13 @@
 
 In this paper, I will be specifying the key parts that I am proposing for my project. With this project, I would be creating a mobile application for an interactive library interface by using the free website Project Gutenberg as a database. I specifically chose this website because they do not have a designated application for their website as it is accessible for mobile-device view and e-reader view with accompanying downloadable PDF files. This would be an example of a database GUI.
 
-I will create script that reads the website and lists the books in the application. The book will be downloaded from the website and saved locally on the device:
-
-![Project Gutenberg Download Options](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/pg_download_options.PNG "Gutenberg Download Options")
-
-The app will then present the book in an e-reader format, like Amazon Kindle. The app will have multiple views for different devices including computers, tablets, and phones. I'd also like to incorporate accessibility features so that text size can change and read aloud the text, and at a minimum include a dark mode.
-
-When you first launch the app, it will reflect the website homepage where the Newest Releases will always appear on the top shelf:
-
-![Project Gutenberg Home Page](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/pg_home_page.PNG "Gutenberg Home Page")
-
-The second shelf will have the Most Popular books. The books lined up on shelves that will scroll horizontally. From there you can filter the shelves by genre or search for a book by name or author:
-
-![Project Gutenberg Search Options](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/pb_advanced_search.PNG "Gutenberg Search Options")
-
-I would also like to have a floating navigation bar that, when clicked on, displays the About, Frequently Downloaded, Main Categories, Reading Lists, and Search Options tabs:
-
-![Project Gutenberg Header](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/pg_header.PNG "Gutenberg Header")
-
-The About section of the navigation menu has a sub menu with: Contact Us, History & Philosophy, Kindles & eReaders, Help Pages, Offline Catalogs, and Donate. Donate and PayPal buttons will launch a browser to these designated websites.
-
-
-
-
+1. I will create script that reads the website and lists the books in the application. The book will be downloaded from the website and saved locally on the device.
+2. The app will then present the book in an e-reader format, like Amazon Kindle.
+3.The app will have multiple views for different devices including computers, tablets, and phones. I'd also like to incorporate accessibility features so that text size can change and read aloud the text, and at a minimum include a dark mode.
+4. When you first launch the app, it will reflect the website homepage where the Newest Releases will always appear on the top shelf.
+4.5 The second shelf will have the Most Popular books. The books lined up on shelves that will scroll horizontally. From there you can filter the shelves by genre or search for a book by name or author.
+5. I would also like to have a floating navigation bar that, when clicked on, displays the About, Frequently Downloaded, Main Categories, Reading Lists, and Search Options tabs.
+6. The About section of the navigation menu has a sub menu with: Contact Us, History & Philosophy, Kindles & eReaders, Help Pages, Offline Catalogs, and Donate. Donate and PayPal buttons will launch a browser to these designated websites.
 
 
 ## II. Final Design Review - DRAFT
@@ -56,8 +40,8 @@ While researching using Android Studio for this project, I found some important 
 >4. DO NOT let a user navigate in a WebView of HTML that is NOT YOUR OWN HTML
 
 [Project Gutenberg](https://www.gutenberg.org/ebooks/offline_catalogs.html) also has some pretty specific policies against web scraping: 
-> All Project Gutenberg metadata are available digitally in the XML/RDF format. This is updated daily (other than the legacy format mentioned below). Please use one of these files as input to a database or other tools you may be developing, instead of crawling or roboting the website.
-> Note that the exact same metadata is available as a per-eBook .rdf file. These are found in the cache/epub (i.e., cache/generated) directory, accessible by mirroring or by the directory/folder listings above. The large XML/RDF file is simply a concatenation of all the per-eBook metadata.
+>All Project Gutenberg metadata are available digitally in the XML/RDF format. This is updated daily (other than the legacy format mentioned below). Please use one of these files as input to a database or other tools you may be developing, instead of crawling or roboting the website.
+>Note that the exact same metadata is available as a per-eBook .rdf file. These are found in the cache/epub (i.e., cache/generated) directory, accessible by mirroring or by the directory/folder listings above. The large XML/RDF file is simply a concatenation of all the per-eBook metadata.
 
 With this information, I have been trying to figure out how to use the XML/RDF format instead of the "Read Now" HTML format I was originally planning on using. I think the easiest way is to use the API site Guntendex to try and get this metadata.
 
@@ -76,37 +60,31 @@ I also got feedback to try using MongoDB, SQLite or another NoSQL local database
 So I'm hoping to incorporate these excellent suggestions and create a "Shelf" database that allows you to view your Downloaded and Favorited books by definining a schema and contract, creating a database using SQL helper, adding, deleting and reading data from the database while simultaenously being able to update the database with a return value of update(). After I debug the database (SQLite3 shell tool is a potential option). This way the database using Room in the app to include dependencies to the build.gradle.kts with KSP or annotationProcessor, but NOT BOTH.
 
 Next Steps (MUST DO):
-1. Create API script that displays books inside the app
-2. Download the book and save locally on the device
+1. Create API script that reads data from gutendex.com (source database) and displays books inside the app
+2. Download the book and save locally in a database on the device
    - The book files (Plain Text UTF-8) downloading locally
    - The book is currently bulk-loading one single file, looking to separate by chapter or page number
 3. Display the text file
    - Present the book in e-reader format with multiple views
-
-
-
-
-6. My Library (local database) with Favorites, Downloads, and ability to update and delete lists
-
-7. React/Tailwind animations:
-     - book opening / covers closing
-     - flipping pages
+4. Create a floating navigation menu that, when clicked on, displays the About, Frequently Downloaded, Main Categories, Reading Lists, and Search Options tabs.
+   - The About section of the navigation menu has a sub menu with: Contact Us, History & Philosophy, Kindles & eReaders, Help Pages, Offline Catalogs, and Donate.
+   - Donate and PayPal buttons will launch a browser to these designated websites.
+   - There will be a Quick Search bar at the top of the submenu and the Search Options page will give more advanced filtering options
+      - This would be easiest as a webview to the website but I wanted to try to make my own search options page to search gutenberg.org
+5. My Library (local database) with Favorites, Downloads, and ability to update and delete lists
+6. React/Tailwind animations:
+     - book opening / covers closing / flipping pages
      - scroll bar (ladder)
      - loading screens
      - carousel book spinner
-
-  
 Last Steps (OPTIONAL):
-
 6. Accessibility features:
      - text scalability
      - contrast picker
      - dark mode
      - text-to-audio
-     
 7. Themes
      - acheivements with rewardable icons, covers, colors, etc.
-
 
 
 
