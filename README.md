@@ -76,15 +76,19 @@ I also got feedback to try using MongoDB, SQLite or another NoSQL local database
 So I'm hoping to incorporate these excellent suggestions and create a "Shelf" database that allows you to view your Downloaded and Favorited books by definining a schema and contract, creating a database using SQL helper, adding, deleting and reading data from the database while simultaenously being able to update the database with a return value of update(). After I debug the database (SQLite3 shell tool is a potential option). This way the database using Room in the app to include dependencies to the build.gradle.kts with KSP or annotationProcessor, but NOT BOTH.
 
 Next Steps (MUST DO):
-1. API reading / pulling books
-
-2. The book files (Plain Text UTF-8) downloading locally
-
+1. Create API script that displays books inside the app
+2. Download the book and save locally on the device
+   - The book files (Plain Text UTF-8) downloading locally
+   - The book is currently bulk-loading one single file, looking to separate by chapter or page number
 3. Display the text file
+   - Present the book in e-reader format with multiple views
 
-4. My Library (local database) with Favorites, Downloads, and ability to update and delete lists
 
-5. React/Tailwind animations:
+
+
+6. My Library (local database) with Favorites, Downloads, and ability to update and delete lists
+
+7. React/Tailwind animations:
      - book opening / covers closing
      - flipping pages
      - scroll bar (ladder)
@@ -98,9 +102,10 @@ Last Steps (OPTIONAL):
      - text scalability
      - contrast picker
      - dark mode
+     - text-to-audio
      
 7. Themes
-     - rewardable icons, covers, colors, etc.
+     - acheivements with rewardable icons, covers, colors, etc.
 
 
 
