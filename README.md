@@ -29,7 +29,7 @@ In this paper, I will be specifying the key parts that I am proposing for my pro
 6. The About section of the navigation menu has a sub menu with: Contact Us, History & Philosophy, Kindles & eReaders, Help Pages, Offline Catalogs, and Donate. Donate and PayPal buttons will launch a browser to these designated websites.
 
 
-## II. Final Design Review - DRAFT
+## II. Final Design Review (FDR) - DRAFT
 ----------------------------------------------------
 
 
