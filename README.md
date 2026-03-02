@@ -182,3 +182,10 @@ Last Steps (OPTIONAL):
 | 3 | The software shall use a script that reads the Project Gutenberg website and mirrors back the books in the application. The book will be downloaded from the website and saved locally on the device |
 | 4 | There shall be Advanced Search filtering for fields such as Author, Title, Subject, Subject Areas, Language, Datatype, and Filetype |
 | 5 | The app shall reflect the website homepage where the Newest Releases will always appear on the top shelf. The second shelf will have the Most Popular books. The books are lined up on shelves that will scroll horizontally |
+
+
+
+## VIII. ERD and UML Class Diagrams
+--------------------
+![ERD](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/erd.jpg "ERD")
+![UML Class Diagram](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/uml.jpg "UML Diagram")
