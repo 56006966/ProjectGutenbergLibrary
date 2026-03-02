@@ -9,7 +9,7 @@
 | V. | [Initial Use Cases](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#v-initial-use-cases) |
 | VI. | [Use Case Diagrams](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#vi-use-case-diagrams) |
 | VII. | [Software Requirements Table](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#vii-software-requirements-table) |
-
+| VIII. | [ERD and UML Class Diagrams](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/README.md#viii-erd-and-uml-class-diagrams) |
 
 
 
@@ -187,5 +187,5 @@ Last Steps (OPTIONAL):
 
 ## VIII. ERD and UML Class Diagrams
 --------------------
-![ERD](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/erd.jpg "ERD")
-![UML Class Diagram](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/uml.jpg "UML Diagram")
+![ERD](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/Erd.png "ERD")
+![UML Class Diagram](https://github.com/56006966/ProjectGutenbergLibrary/blob/main/Uml.png "UML Diagram")
